@@ -1,4 +1,4 @@
-import { ConflictException, Injectable, NotFoundException } from "@nestjs/common";
+import { BadRequestException, ConflictException, Injectable, NotFoundException } from "@nestjs/common";
 import { JwtService } from "@nestjs/jwt";
 import { InjectModel } from "@nestjs/mongoose";
 import { Model } from "mongoose";
@@ -261,6 +261,183 @@ export class AdminService {
         return {
             success: true,
             message: "Branch and Branch Admin Created"
+        }
+    }
+
+    async FetchAllBranches(
+        token: string
+    ) {
+        const payload = await verifyToken(token, "LOGIN_TOKEN");
+
+        const user = await this.userModel.findOne({
+            email: payload.email,
+        });
+
+        if (!user) {
+            throw new NotFoundException("User Cannot be Found");
+        }
+
+        const branches = await this.branchModel.find().populate('branch_admin').populate('staff_members')
+
+        return {
+            success: true,
+            message: "All branches Fetched Success",
+            result: branches
+        }
+    }
+
+    async AssignStaffToBranch(
+        token: string,
+        branchId: string,
+        staffId: string,
+        ipAddress?: string,
+        userAgent?: string,
+    ) {
+        const location = getLocationFromIP(ipAddress || "");
+
+        const payload = await verifyToken(token, "LOGIN_TOKEN");
+
+        const user = await this.userModel.findOne({
+            email: payload.email,
+        });
+
+        if (!user) {
+            throw new NotFoundException("User Cannot be Found");
+        }
+
+        const staff = await this.userModel.findById(staffId)
+
+        if (!staff) {
+            throw new NotFoundException("Staff Cannot be found")
+        }
+
+        const branch = await this.branchModel.findById(branchId)
+
+        if (!branch) {
+            throw new NotFoundException("Branch Cannot be found")
+        }
+
+        const alreadyAssigned = branch.staff_members?.some(
+            (id) => id.toString() === staffId
+        )
+
+        if (alreadyAssigned) {
+            throw new BadRequestException(
+                "Staff is already assigned to this branch"
+            )
+        }
+
+        await this.branchModel.findByIdAndUpdate(
+            branchId,
+            {
+                $addToSet: {
+                    staff_members: staffId
+                }
+            },
+            { new: true }
+        )
+
+        await this.emailService.NotificationEmail(
+            staff.email,
+            `You Assign to ${branch.branch_name} at ${new Date()}`,
+            ipAddress,
+            userAgent,
+        )
+
+        await createAuditLog(this.auditlogModel, {
+            user: user._id,
+            action: "STAFF_ASSIGN_BRANCH",
+            description: `${user.email} Assign staff ${staff.email} to ${branch.branch_name}`,
+            ipAddress,
+            userAgent,
+            metadata: {
+                ipAddress,
+                userAgent,
+                location,
+            },
+        });
+
+        return {
+            success: true,
+            message: "Staff Assign to Branch Success"
+        }
+    }
+
+
+    async RemoveStaffFromBranch(
+        token: string,
+        branchId: string,
+        staffId: string,
+        ipAddress?: string,
+        userAgent?: string,
+    ) {
+        const location = getLocationFromIP(ipAddress || "");
+
+        const payload = await verifyToken(token, "LOGIN_TOKEN");
+
+        const user = await this.userModel.findOne({
+            email: payload.email,
+        });
+
+        if (!user) {
+            throw new NotFoundException("User Cannot be Found");
+        }
+
+        const staff = await this.userModel.findById(staffId)
+
+        if (!staff) {
+            throw new NotFoundException("Staff Cannot be found")
+        }
+
+        const branch = await this.branchModel.findById(branchId)
+
+        if (!branch) {
+            throw new NotFoundException("Branch Cannot be found")
+        }
+
+        const isAssigned = branch.staff_members?.some(
+            (id) => id.toString() === staffId
+        )
+
+        if (!isAssigned) {
+            throw new BadRequestException(
+                "Staff is not assigned to this branch"
+            )
+        }
+
+        await this.branchModel.findByIdAndUpdate(
+            branchId,
+            {
+                $pull: {
+                    staff_members: staffId
+                }
+            },
+            { new: true }
+        )
+
+        await this.emailService.NotificationEmail(
+            staff.email,
+            `You Removed from ${branch.branch_name} at ${new Date()}`,
+            ipAddress,
+            userAgent,
+        )
+
+        await createAuditLog(this.auditlogModel, {
+            user: user._id,
+            action: "STAFF_REMOVE_BRANCH",
+            description: `${user.email} Removed staff ${staff.email} from ${branch.branch_name}`,
+            ipAddress,
+            userAgent,
+            metadata: {
+                ipAddress,
+                userAgent,
+                location,
+            },
+        });
+
+        return {
+            success: true,
+            message: "Staff Removed from Branch Success"
         }
     }
 

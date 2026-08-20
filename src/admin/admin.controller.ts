@@ -92,6 +92,67 @@ export class AdminController {
         )
     }
 
+    @Get('/fetch-all-branches')
+    @UseGuards(JwtAuthGuard, PermissionsGuard)
+    @Permissions('admin:fetch-branches')
+    FetchAllBranches(
+        @Headers("authorization") authHeader: string,
+    ) {
+        if (!authHeader || !authHeader.startsWith("Bearer ")) {
+            throw new UnauthorizedException("Invalid or missing token");
+        }
+        const token = authHeader.split(" ")[1];
+
+        return this.adminService.FetchAllBranches(token)
+    }
+
+    @Patch('/assign-staff/:branchid/:staffid')
+    @UseGuards(JwtAuthGuard, PermissionsGuard)
+    @Permissions('admin:assign-staff')
+    AssignStafftoBranch(
+        @Headers("authorization") authHeader: string,
+        @Param('branchid') branchid: string,
+        @Param('staffid') staffid: string,
+        @ClientInfoDecorator() client: ClientInfo
+    ) {
+        if (!authHeader || !authHeader.startsWith("Bearer ")) {
+            throw new UnauthorizedException("Invalid or missing token");
+        }
+        const token = authHeader.split(" ")[1];
+
+        return this.adminService.AssignStaffToBranch(
+            token,
+            branchid,
+            staffid,
+            client.ipAddress,
+            client.userAgent
+        )
+    }
+
+
+    @Patch('/remove-staff/:branchid/:staffid')
+    @UseGuards(JwtAuthGuard, PermissionsGuard)
+    @Permissions('admin:remove-staff')
+    RemoveStaffFromBranch(
+        @Headers("authorization") authHeader: string,
+        @Param('branchid') branchid: string,
+        @Param('staffid') staffid: string,
+        @ClientInfoDecorator() client: ClientInfo
+    ) {
+        if (!authHeader || !authHeader.startsWith("Bearer ")) {
+            throw new UnauthorizedException("Invalid or missing token");
+        }
+        const token = authHeader.split(" ")[1];
+
+        return this.adminService.RemoveStaffFromBranch(
+            token,
+            branchid,
+            staffid,
+            client.ipAddress,
+            client.userAgent
+        )
+    }
+
     @Post('/create-platfrom-user')
     @UseGuards(JwtAuthGuard, PermissionsGuard)
     @Permissions('admin:create-platfrom-user')
