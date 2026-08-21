@@ -1,43 +1,24 @@
-import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
-import { Document } from "mongoose";
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Document } from 'mongoose';
 
 export type CategoryDocument = Category & Document;
 
 @Schema({ timestamps: true })
 export class Category {
-    @Prop({
-        required: true,
-        unique: true,
-        type: String,
-        trim: true,
-    })
-    category!: string;
+    @Prop({ required: true, type: String })
+    category!: String;
 
-    @Prop({
-        required: true,
-        type: String,
-        trim: true,
-    })
-    category_img!: string;
+    @Prop({ required: true, type: String })
+    category_img!: String;
 
-    @Prop({
-        required: true,
-        type: String,
-        trim: true,
-    })
-    category_desc!: string;
+    @Prop({ required: true, type: String })
+    category_desc!: String;
 
-    @Prop({
-        type: [String],
-    })
-    sub_category!: string[];
+    @Prop({ type: [String] })
+    sub_category!: String[];
 
-    @Prop({
-        required: true,
-        default: true,
-        type: Boolean,
-    })
-    category_stats!: boolean;
+    @Prop({ required: true, type: Boolean, default: true })
+    category_stats!: Boolean;
 }
 
 export const CategorySchema = SchemaFactory.createForClass(Category);

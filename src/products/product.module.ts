@@ -9,6 +9,7 @@ import { Category, CategorySchema } from "./schema/category.schema";
 import { ProductController } from "./product.controller";
 import { ProductService } from "./product.service";
 import { EmailService } from "src/common/utils/email.util";
+import { Product, ProductSchema } from "./schema/product.schema";
 
 @Module({
     imports: [
@@ -19,6 +20,7 @@ import { EmailService } from "src/common/utils/email.util";
             { name: Role.name, schema: RoleSchema },
             { name: AuditLog.name, schema: AuditLogSchema },
             { name: Category.name, schema: CategorySchema },
+            { name: Product.name, schema: ProductSchema },
         ])
     ],
     controllers: [ProductController],
