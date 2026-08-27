@@ -1,3 +1,4 @@
+import { Type } from 'class-transformer';
 import { IsArray, IsBoolean, IsMongoId, IsNumber, IsOptional, IsString } from 'class-validator';
 import { Types } from 'mongoose';
 
@@ -8,7 +9,7 @@ export class UpdateProductDTO {
 
     @IsOptional()
     @IsMongoId()
-    category!: Types.ObjectId;
+    category?: Types.ObjectId;
 
     @IsOptional()
     @IsArray()
@@ -16,14 +17,27 @@ export class UpdateProductDTO {
     sub_category?: String[];
 
     @IsOptional()
+    @Type(() => Number)
     @IsNumber()
-    price?: Number;
+    hourly_price?: Number;
 
     @IsOptional()
+    @Type(() => Number)
+    @IsNumber()
+    daily_price?: Number;
+
+    @IsOptional()
+    @Type(() => Number)
+    @IsNumber()
+    weekly_price?: Number;
+
+    @IsOptional()
+    @Type(() => Number)
     @IsNumber()
     discount?: Number;
 
     @IsOptional()
+    @Type(() => Number)
     @IsNumber()
     stock?: Number;
 
@@ -33,6 +47,7 @@ export class UpdateProductDTO {
     tags?: String[];
 
     @IsOptional()
+    @Type(() => Boolean)
     @IsBoolean()
     product_status?: Boolean;
 }

@@ -236,4 +236,55 @@ export class ProductController {
         return this.productService.FetchProductByID(token, id)
 
     }
+
+    @Get('/public-products')
+    FetchPublicProducts(
+    ) {
+        return this.productService.FechShopProducts()
+    }
+
+    @Get('/public-product/:id')
+    FetchPublicProductByID(
+        @Param('id') id: string
+    ) {
+        return this.productService.FechShopProductsbyID(id)
+    }
+
+    // -----------------------------
+    // Product Comments
+    // -----------------------------
+
+    @Post('/create-comment/:id')
+    @UseGuards(JwtAuthGuard, PermissionsGuard)
+    @Permissions('product:create-comment')
+    CreateComment(
+        @Headers('authorization') authHeader: string,
+        @Param('id') id: string,
+        @Body('comment') comment: string,
+        @ClientInfoDecorator() client: ClientInfo,
+        @Body('parentCommentId') parentCommentId?: string,
+    ) {
+        if (!authHeader || !authHeader.startsWith('Bearer ')) {
+            throw new UnauthorizedException('Invalid or missing token');
+        }
+
+        const token = authHeader.split(' ')[1];
+
+        return this.productService.CreateCommets(
+            token,
+            id,
+            comment,
+            parentCommentId,
+            client.ipAddress,
+            client.userAgent
+        );
+    }
+
+
+    @Get('/fetch-commets/:id')
+    FetchProductCommts(
+        @Param('id') id: string
+    ) {
+        return this.productService.FetchProductComment(id)
+    }
 }

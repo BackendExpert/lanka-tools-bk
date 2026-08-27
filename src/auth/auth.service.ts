@@ -81,7 +81,7 @@ export class AuthService {
             email: dto.email,
             password: hashpass,
             role: role._id,
-            account_stats: false
+            account_stats: true
         })
 
         await this.backupcodesModel.create({

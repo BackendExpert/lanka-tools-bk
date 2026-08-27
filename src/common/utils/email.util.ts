@@ -52,9 +52,6 @@ export class EmailService {
 <tr>
 <td style="background:linear-gradient(135deg,#1d4ed8,#2563eb,#4f46e5);padding:45px;text-align:center;">
 
-<div style="width:80px;height:80px;border-radius:20px;background:rgba(255,255,255,0.15);display:inline-block;line-height:80px;font-size:42px;">
-🎓
-</div>
 
 <h1 style="margin:20px 0 8px;color:#ffffff;font-size:32px;font-weight:700;">
 ${projectName}
@@ -255,9 +252,7 @@ This is an automated email. Please do not reply.
 <tr>
 <td style="background:linear-gradient(135deg,#2563eb,#4f46e5,#7c3aed);padding:45px;text-align:center;">
 
-<div style="width:80px;height:80px;border-radius:20px;background:rgba(255,255,255,.15);display:inline-block;line-height:80px;font-size:42px;">
-🎓
-</div>
+
 
 <h1 style="margin:20px 0 8px;color:#ffffff;font-size:32px;font-weight:700;">
 ${projectName}
@@ -721,6 +716,1047 @@ Automated Account Management Service
 
 </body>
 </html>
+        `,
+    });
+  }
+
+  async RentalPaymentSuccessEmail(
+    email: string,
+    productName: string,
+    startDateTime: Date,
+    endDateTime: Date,
+    hourlyPrice: number,
+    dailyPrice: number,
+    weeklyPrice: number,
+    totalHours: number,
+    totalDays: number,
+    totalWeeks: number,
+    subtotal: number,
+    vatRate: number,
+    vatAmount: number,
+    totalAmount: number,
+    paymentIntentId: string,
+    ipAddress?: string,
+    userAgent?: string,
+  ): Promise<void> {
+    const projectName = this.configService.get("PROJECT_NAME");
+
+    await this.transporter.sendMail({
+      from: `"${projectName}" <${this.configService.get<string>("EMAIL_USER")}>`,
+      to: email,
+      subject: `${projectName} - Rental Payment Successful`,
+
+      text: `
+${projectName} Rental Payment Successful
+
+Your rental payment has been successfully completed.
+
+Product: ${productName}
+
+Rental Period
+Start: ${new Date(startDateTime).toLocaleString()}
+End: ${new Date(endDateTime).toLocaleString()}
+
+Pricing
+Hourly Price: $${Number(hourlyPrice).toFixed(2)}
+Daily Price: $${Number(dailyPrice).toFixed(2)}
+Weekly Price: $${Number(weeklyPrice).toFixed(2)}
+
+Rental Duration
+Total Hours: ${totalHours}
+Total Days: ${totalDays}
+Total Weeks: ${totalWeeks}
+
+Bill
+Subtotal: $${Number(subtotal).toFixed(2)}
+VAT (${vatRate}%): $${Number(vatAmount).toFixed(2)}
+Final Total: $${Number(totalAmount).toFixed(2)}
+
+Payment Details
+Payment Status: Successful
+Payment Intent ID: ${paymentIntentId}
+
+IP Address: ${ipAddress || "N/A"}
+Device: ${userAgent || "N/A"}
+
+Thank you for using ${projectName}.
+        `,
+
+      html: `
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="
+margin:0;
+padding:40px 20px;
+background:#f8fafc;
+font-family:Inter,Arial,sans-serif;
+">
+
+<div style="
+max-width:650px;
+margin:auto;
+background:#ffffff;
+border-radius:24px;
+overflow:hidden;
+box-shadow:0 20px 50px rgba(0,0,0,0.08);
+">
+
+<!-- Header -->
+
+<div style="
+background:linear-gradient(135deg,#16a34a,#059669);
+padding:45px 30px;
+text-align:center;
+">
+
+<div style="
+width:70px;
+height:70px;
+margin:auto;
+background:rgba(255,255,255,0.2);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:35px;
+color:white;
+">
+✓
+</div>
+
+<h1 style="
+margin:20px 0 8px;
+color:white;
+font-size:28px;
+">
+Payment Successful
+</h1>
+
+<p style="
+margin:0;
+color:#dcfce7;
+font-size:15px;
+">
+Your rental payment has been completed successfully
+</p>
+
+</div>
+
+<!-- Content -->
+
+<div style="
+padding:40px 35px;
+">
+
+<h2 style="
+margin:0;
+color:#111827;
+font-size:24px;
+">
+Rental Confirmation
+</h2>
+
+<p style="
+color:#64748b;
+font-size:15px;
+line-height:26px;
+margin-top:15px;
+">
+Thank you for your payment. Your rental request has been successfully processed.
+Please find your rental bill below.
+</p>
+
+<!-- Product -->
+
+<div style="
+margin-top:30px;
+background:#f8fafc;
+border:1px solid #e2e8f0;
+border-radius:16px;
+padding:25px;
+">
+
+<p style="
+margin:0;
+font-size:12px;
+color:#64748b;
+text-transform:uppercase;
+letter-spacing:1px;
+">
+Rental Product
+</p>
+
+<p style="
+margin:8px 0 0;
+font-size:22px;
+font-weight:700;
+color:#0f172a;
+">
+${productName}
+</p>
+
+</div>
+
+<!-- Rental Period -->
+
+<div style="
+margin-top:20px;
+background:#f8fafc;
+border:1px solid #e2e8f0;
+border-radius:16px;
+padding:25px;
+">
+
+<h3 style="
+margin:0 0 18px;
+font-size:17px;
+color:#111827;
+">
+Rental Period
+</h3>
+
+<p style="
+margin:8px 0;
+font-size:14px;
+color:#475569;
+">
+Start Date & Time:
+<strong>
+${new Date(startDateTime).toLocaleString()}
+</strong>
+</p>
+
+<p style="
+margin:8px 0;
+font-size:14px;
+color:#475569;
+">
+End Date & Time:
+<strong>
+${new Date(endDateTime).toLocaleString()}
+</strong>
+</p>
+
+</div>
+
+<!-- Pricing -->
+
+<div style="
+margin-top:20px;
+background:#f8fafc;
+border:1px solid #e2e8f0;
+border-radius:16px;
+padding:25px;
+">
+
+<h3 style="
+margin:0 0 18px;
+font-size:17px;
+color:#111827;
+">
+Pricing
+</h3>
+
+<table style="
+width:100%;
+border-collapse:collapse;
+">
+
+<tr>
+<td style="
+padding:8px 0;
+font-size:14px;
+color:#64748b;
+">
+Hourly Price
+</td>
+
+<td style="
+padding:8px 0;
+font-size:14px;
+font-weight:600;
+color:#0f172a;
+text-align:right;
+">
+$${Number(hourlyPrice).toFixed(2)}
+</td>
+</tr>
+
+<tr>
+<td style="
+padding:8px 0;
+font-size:14px;
+color:#64748b;
+">
+Daily Price
+</td>
+
+<td style="
+padding:8px 0;
+font-size:14px;
+font-weight:600;
+color:#0f172a;
+text-align:right;
+">
+$${Number(dailyPrice).toFixed(2)}
+</td>
+</tr>
+
+<tr>
+<td style="
+padding:8px 0;
+font-size:14px;
+color:#64748b;
+">
+Weekly Price
+</td>
+
+<td style="
+padding:8px 0;
+font-size:14px;
+font-weight:600;
+color:#0f172a;
+text-align:right;
+">
+$${Number(weeklyPrice).toFixed(2)}
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- Duration -->
+
+<div style="
+margin-top:20px;
+background:#f8fafc;
+border:1px solid #e2e8f0;
+border-radius:16px;
+padding:25px;
+">
+
+<h3 style="
+margin:0 0 18px;
+font-size:17px;
+color:#111827;
+">
+Rental Duration
+</h3>
+
+<table style="
+width:100%;
+border-collapse:collapse;
+">
+
+<tr>
+<td style="
+padding:8px 0;
+font-size:14px;
+color:#64748b;
+">
+Total Hours
+</td>
+
+<td style="
+padding:8px 0;
+font-size:14px;
+font-weight:600;
+color:#0f172a;
+text-align:right;
+">
+${totalHours}
+</td>
+</tr>
+
+<tr>
+<td style="
+padding:8px 0;
+font-size:14px;
+color:#64748b;
+">
+Total Days
+</td>
+
+<td style="
+padding:8px 0;
+font-size:14px;
+font-weight:600;
+color:#0f172a;
+text-align:right;
+">
+${totalDays}
+</td>
+</tr>
+
+<tr>
+<td style="
+padding:8px 0;
+font-size:14px;
+color:#64748b;
+">
+Total Weeks
+</td>
+
+<td style="
+padding:8px 0;
+font-size:14px;
+font-weight:600;
+color:#0f172a;
+text-align:right;
+">
+${totalWeeks}
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- Bill -->
+
+<div style="
+margin-top:25px;
+background:#ffffff;
+border:2px solid #e2e8f0;
+border-radius:16px;
+padding:25px;
+">
+
+<h3 style="
+margin:0 0 20px;
+font-size:20px;
+color:#111827;
+">
+Rental Bill
+</h3>
+
+<table style="
+width:100%;
+border-collapse:collapse;
+">
+
+<tr>
+<td style="
+padding:10px 0;
+font-size:14px;
+color:#64748b;
+">
+Subtotal
+</td>
+
+<td style="
+padding:10px 0;
+font-size:14px;
+font-weight:600;
+color:#0f172a;
+text-align:right;
+">
+$${Number(subtotal).toFixed(2)}
+</td>
+</tr>
+
+<tr>
+<td style="
+padding:10px 0;
+font-size:14px;
+color:#64748b;
+">
+VAT (${vatRate}%)
+</td>
+
+<td style="
+padding:10px 0;
+font-size:14px;
+font-weight:600;
+color:#0f172a;
+text-align:right;
+">
+$${Number(vatAmount).toFixed(2)}
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="
+border-top:2px solid #e2e8f0;
+padding-top:18px;
+"></td>
+</tr>
+
+<tr>
+<td style="
+font-size:18px;
+font-weight:700;
+color:#111827;
+">
+Final Total
+</td>
+
+<td style="
+font-size:24px;
+font-weight:800;
+color:#16a34a;
+text-align:right;
+">
+$${Number(totalAmount).toFixed(2)}
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- Payment -->
+
+<div style="
+margin-top:25px;
+background:#f0fdf4;
+border-left:5px solid #16a34a;
+padding:20px;
+border-radius:12px;
+">
+
+<h3 style="
+margin:0;
+color:#166534;
+font-size:16px;
+">
+Payment Details
+</h3>
+
+<p style="
+margin:10px 0 0;
+color:#166534;
+font-size:14px;
+line-height:24px;
+">
+Payment Status:
+<strong>Successful</strong>
+</p>
+
+<p style="
+margin:5px 0 0;
+color:#166534;
+font-size:13px;
+line-height:22px;
+word-break:break-all;
+">
+Payment ID:
+<strong>${paymentIntentId}</strong>
+</p>
+
+</div>
+
+<!-- Activity -->
+
+<div style="
+margin-top:25px;
+background:#f8fafc;
+padding:20px;
+border-radius:14px;
+">
+
+<h3 style="
+margin:0 0 15px;
+font-size:16px;
+color:#111827;
+">
+Payment Activity
+</h3>
+
+<p style="
+margin:8px 0;
+font-size:13px;
+color:#475569;
+">
+IP Address:
+<strong>${ipAddress || "N/A"}</strong>
+</p>
+
+<p style="
+margin:8px 0;
+font-size:13px;
+color:#475569;
+">
+Device:
+<strong>${userAgent || "N/A"}</strong>
+</p>
+
+<p style="
+margin:8px 0;
+font-size:13px;
+color:#475569;
+">
+Payment Date:
+<strong>${new Date().toLocaleString()}</strong>
+</p>
+
+</div>
+
+</div>
+
+<!-- Footer -->
+
+<div style="
+background:#0f172a;
+padding:25px;
+text-align:center;
+">
+
+<p style="
+margin:0;
+color:#cbd5e1;
+font-size:13px;
+">
+© ${new Date().getFullYear()} ${projectName}
+</p>
+
+<p style="
+margin:8px 0 0;
+color:#64748b;
+font-size:12px;
+">
+Automated Rental Payment Service
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
+        `,
+    });
+  }
+
+
+  async RentalOverDueEmail(
+    email: string,
+    productName: string,
+    overdueDays: number,
+    overduePercentage: number,
+    overdueCost: number,
+    totalCost: number,
+  ): Promise<void> {
+    const projectName = this.configService.get("PROJECT_NAME");
+
+    await this.transporter.sendMail({
+      from: `"${projectName}" <${this.configService.get<string>("EMAIL_USER")}>`,
+      to: email,
+      subject: `${projectName} - Rental Overdue Notice`,
+
+      text: `
+${projectName} Rental Overdue Notice
+
+Your rental period has expired and the rented product has not yet been returned.
+
+Product: ${productName}
+Overdue Days: ${overdueDays}
+Overdue Charge: ${overduePercentage}%
+Overdue Cost: $${overdueCost.toFixed(2)}
+Total Rental Cost: $${totalCost.toFixed(2)}
+
+Please return the rented product as soon as possible to avoid additional overdue charges.
+
+Thank you,
+${projectName}
+        `,
+
+      html: `
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="
+margin:0;
+padding:40px 20px;
+background:#f8fafc;
+font-family:Inter,Arial,sans-serif;
+">
+
+<div style="
+max-width:600px;
+margin:auto;
+background:#ffffff;
+border-radius:24px;
+overflow:hidden;
+box-shadow:0 20px 50px rgba(0,0,0,0.08);
+">
+
+<div style="
+background:linear-gradient(135deg,#dc2626,#f97316);
+padding:45px 30px;
+text-align:center;
+">
+
+<div style="
+width:70px;
+height:70px;
+margin:auto;
+background:rgba(255,255,255,0.2);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:35px;
+color:white;
+">
+!
+</div>
+
+<h1 style="
+margin:20px 0 8px;
+color:white;
+font-size:28px;
+">
+${projectName}
+</h1>
+
+<p style="
+margin:0;
+color:#fee2e2;
+font-size:15px;
+">
+Rental Overdue Notice
+</p>
+
+</div>
+
+<div style="
+padding:40px 35px;
+">
+
+<h2 style="
+margin:0;
+color:#111827;
+font-size:24px;
+">
+Your Rental Is Overdue
+</h2>
+
+<p style="
+color:#64748b;
+font-size:15px;
+line-height:26px;
+margin-top:15px;
+">
+The rental period for the product below has expired, and our records indicate that the product has not yet been returned.
+</p>
+
+<div style="
+margin-top:30px;
+background:#f8fafc;
+border:1px solid #e2e8f0;
+border-radius:16px;
+padding:25px;
+">
+
+<p style="
+margin:0;
+font-size:12px;
+color:#64748b;
+text-transform:uppercase;
+letter-spacing:1px;
+">
+Rented Product
+</p>
+
+<p style="
+margin:8px 0 25px;
+font-size:20px;
+font-weight:700;
+color:#0f172a;
+">
+${productName}
+</p>
+
+<p style="
+margin:0;
+font-size:12px;
+color:#64748b;
+text-transform:uppercase;
+letter-spacing:1px;
+">
+Overdue Duration
+</p>
+
+<p style="
+margin:8px 0 0;
+font-size:18px;
+font-weight:700;
+color:#dc2626;
+">
+${overdueDays} day${overdueDays === 1 ? "" : "s"}
+</p>
+
+</div>
+
+<div style="
+margin-top:25px;
+display:flex;
+gap:10px;
+">
+
+<div style="
+flex:1;
+background:#fff7ed;
+border:1px solid #fed7aa;
+border-radius:14px;
+padding:20px;
+">
+
+<p style="
+margin:0;
+font-size:11px;
+color:#9a3412;
+text-transform:uppercase;
+letter-spacing:1px;
+">
+Overdue Rate
+</p>
+
+<p style="
+margin:8px 0 0;
+font-size:22px;
+font-weight:800;
+color:#c2410c;
+">
+${overduePercentage}%
+</p>
+
+</div>
+
+<div style="
+flex:1;
+background:#fef2f2;
+border:1px solid #fecaca;
+border-radius:14px;
+padding:20px;
+">
+
+<p style="
+margin:0;
+font-size:11px;
+color:#991b1b;
+text-transform:uppercase;
+letter-spacing:1px;
+">
+Overdue Cost
+</p>
+
+<p style="
+margin:8px 0 0;
+font-size:22px;
+font-weight:800;
+color:#dc2626;
+">
+$${overdueCost.toFixed(2)}
+</p>
+
+</div>
+
+</div>
+
+<div style="
+margin-top:30px;
+background:#fff7ed;
+border-left:5px solid #f97316;
+padding:20px;
+border-radius:12px;
+">
+
+<h3 style="
+margin:0;
+color:#c2410c;
+font-size:16px;
+">
+Action Required
+</h3>
+
+<p style="
+margin:10px 0 0;
+color:#9a3412;
+font-size:14px;
+line-height:24px;
+">
+Please return the rented product as soon as possible. Additional overdue charges may apply for each day the product remains unreturned.
+</p>
+
+</div>
+
+<div style="
+margin-top:30px;
+background:#f8fafc;
+padding:25px;
+border-radius:14px;
+">
+
+<h3 style="
+margin:0 0 15px;
+font-size:16px;
+color:#111827;
+">
+Rental Cost Summary
+</h3>
+
+<p style="
+margin:10px 0;
+font-size:14px;
+color:#475569;
+">
+Overdue Days:
+<strong style="color:#0f172a;">
+${overdueDays}
+</strong>
+</p>
+
+<p style="
+margin:10px 0;
+font-size:14px;
+color:#475569;
+">
+Overdue Charge:
+<strong style="color:#dc2626;">
+$${overdueCost.toFixed(2)}
+</strong>
+</p>
+
+<p style="
+margin:15px 0 0;
+padding-top:15px;
+border-top:1px solid #e2e8f0;
+font-size:16px;
+color:#334155;
+">
+Total Cost:
+<strong style="
+float:right;
+color:#0f172a;
+font-size:20px;
+">
+$${totalCost.toFixed(2)}
+</strong>
+</p>
+
+</div>
+
+</div>
+
+<div style="
+background:#0f172a;
+padding:25px;
+text-align:center;
+">
+
+<p style="
+margin:0;
+color:#cbd5e1;
+font-size:13px;
+">
+© ${new Date().getFullYear()} ${projectName}
+</p>
+
+<p style="
+margin:8px 0 0;
+color:#64748b;
+font-size:12px;
+">
+Automated Rental Management Service
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
+        `,
+    });
+  }
+
+  async RentalOverduePaymentRequestEmail(
+    email: string,
+    productName: string,
+    overdueDays: number,
+    overdueCost: number,
+    totalCost: number,
+  ) {
+    await this.transporter.sendMail({
+      from: process.env.MAIL_FROM,
+      to: email,
+      subject: "Overdue Rental Payment Request",
+      html: `
+            <div style="margin:0;padding:40px 20px;background:#f8fafc;font-family:Arial,sans-serif;">
+                <div style="max-width:600px;margin:0 auto;background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;overflow:hidden;">
+                    <div style="padding:28px;background:#0f172a;text-align:center;">
+                        <h1 style="margin:0;color:#ffffff;font-size:24px;">Overdue Payment Request</h1>
+                    </div>
+
+                    <div style="padding:32px;">
+                        <h2 style="margin:0 0 12px;color:#0f172a;font-size:20px;">
+                            Rental Overdue
+                        </h2>
+
+                        <p style="margin:0 0 24px;color:#64748b;font-size:14px;line-height:1.7;">
+                            Your rented tool has been returned after the expected return time.
+                            An overdue charge has been generated for this rental.
+                        </p>
+
+                        <div style="padding:20px;background:#fef2f2;border:1px solid #fecaca;border-radius:12px;">
+                            <p style="margin:0 0 12px;color:#991b1b;font-size:13px;font-weight:bold;">
+                                OVERDUE DETAILS
+                            </p>
+
+                            <p style="margin:8px 0;color:#334155;font-size:14px;">
+                                <strong>Product:</strong> ${productName}
+                            </p>
+
+                            <p style="margin:8px 0;color:#334155;font-size:14px;">
+                                <strong>Overdue Days:</strong> ${overdueDays}
+                            </p>
+
+                            <p style="margin:8px 0;color:#334155;font-size:14px;">
+                                <strong>Overdue Cost:</strong> $${Number(overdueCost).toFixed(2)}
+                            </p>
+                        </div>
+
+                        <div style="margin-top:24px;padding:20px;background:#f8fafc;border-radius:12px;">
+                            <div style="display:flex;justify-content:space-between;">
+                                <span style="color:#64748b;font-size:14px;">
+                                    Amount Due
+                                </span>
+
+                                <strong style="color:#dc2626;font-size:24px;">
+                                    $${Number(overdueCost).toFixed(2)}
+                                </strong>
+                            </div>
+                        </div>
+
+                        <p style="margin:24px 0 0;color:#64748b;font-size:14px;line-height:1.7;">
+                            Please complete the overdue payment to settle your rental account.
+                        </p>
+
+
+                        <p style="margin:28px 0 0;color:#94a3b8;font-size:12px;line-height:1.6;text-align:center;">
+                            If you have already paid this amount, please ignore this email.
+                        </p>
+                    </div>
+
+                    <div style="padding:20px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
+                        <p style="margin:0;color:#94a3b8;font-size:12px;">
+                            This is an automated notification. Please do not reply to this email.
+                        </p>
+                    </div>
+                </div>
+            </div>
         `,
     });
   }

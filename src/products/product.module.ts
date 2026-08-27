@@ -10,6 +10,7 @@ import { ProductController } from "./product.controller";
 import { ProductService } from "./product.service";
 import { EmailService } from "src/common/utils/email.util";
 import { Product, ProductSchema } from "./schema/product.schema";
+import { ProductComments, ProductCommentsSchema } from "./schema/commets.schema";
 
 @Module({
     imports: [
@@ -21,6 +22,7 @@ import { Product, ProductSchema } from "./schema/product.schema";
             { name: AuditLog.name, schema: AuditLogSchema },
             { name: Category.name, schema: CategorySchema },
             { name: Product.name, schema: ProductSchema },
+            { name: ProductComments.name, schema: ProductCommentsSchema },
         ])
     ],
     controllers: [ProductController],

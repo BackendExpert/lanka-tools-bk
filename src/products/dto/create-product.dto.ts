@@ -1,4 +1,5 @@
 import { IsArray, IsBoolean, IsMongoId, IsNumber, IsOptional, IsString } from 'class-validator';
+import { Type } from 'class-transformer';
 import { Types } from 'mongoose';
 
 export class CreateProductDTO {
@@ -16,13 +17,24 @@ export class CreateProductDTO {
     @IsString({ each: true })
     sub_category!: String[];
 
+    @Type(() => Number)
     @IsNumber()
-    price!: Number;
+    hourly_price!: Number;
+
+    @Type(() => Number)
+    @IsNumber()
+    daily_price!: Number;
+
+    @Type(() => Number)
+    @IsNumber()
+    weekly_price!: Number;
 
     @IsOptional()
+    @Type(() => Number)
     @IsNumber()
     discount!: Number;
 
+    @Type(() => Number)
     @IsNumber()
     stock!: Number;
 

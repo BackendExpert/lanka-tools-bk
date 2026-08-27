@@ -21,7 +21,13 @@ export class Product {
     product_imgs!: String[];
 
     @Prop({ required: true, type: Number })
-    price!: Number;
+    hourly_price!: Number;
+
+    @Prop({ required: true, type: Number })
+    daily_price!: Number;
+
+    @Prop({ required: true, type: Number })
+    weekly_price!: Number;
 
     @Prop({ type: Number, default: 0 })
     discount!: Number;

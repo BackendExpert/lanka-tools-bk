@@ -15,6 +15,7 @@ import { UpdateCategoryDto } from "./dto/update-category.dto";
 import { CreateProductDTO } from "./dto/create-product.dto";
 import { Product, ProductDocument } from "./schema/product.schema";
 import { UpdateProductDTO } from "./dto/update-product.dto";
+import { ProductComments, ProductCommentsDocument } from "./schema/commets.schema";
 
 @Injectable()
 export class ProductService {
@@ -33,6 +34,9 @@ export class ProductService {
 
         @InjectModel(Product.name)
         private productModel: Model<ProductDocument>,
+
+        @InjectModel(ProductComments.name)
+        private productcommtModel: Model<ProductCommentsDocument>,
 
         private readonly jwtService: JwtService,
         private readonly emailService: EmailService,
@@ -289,7 +293,9 @@ export class ProductService {
             category: dto.category,
             sub_category: dto.sub_category,
             product_imgs: files.map((file) => file.filename),
-            price: dto.price,
+            hourly_price: dto.hourly_price,
+            daily_price: dto.daily_price,
+            weekly_price: dto.weekly_price,
             discount: dto.discount,
             stock: dto.stock,
             tags: dto.tags,
@@ -355,8 +361,16 @@ export class ProductService {
             product_check.sub_category = dto.sub_category;
         }
 
-        if (dto.price !== undefined) {
-            product_check.price = dto.price;
+        if (dto.hourly_price !== undefined) {
+            product_check.hourly_price = dto.hourly_price;
+        }
+
+        if (dto.daily_price !== undefined) {
+            product_check.daily_price = dto.daily_price;
+        }
+
+        if (dto.weekly_price !== undefined) {
+            product_check.weekly_price = dto.weekly_price;
         }
 
         if (dto.discount !== undefined) {
@@ -376,9 +390,10 @@ export class ProductService {
         }
 
         if (files && files.length > 0) {
-            product_check.product_imgs = files.map(
-                (file) => file.filename
-            );
+            product_check.product_imgs = [
+                ...(product_check.product_imgs || []),
+                ...files.map((file) => file.filename),
+            ];
         }
 
         await product_check.save();
@@ -493,7 +508,7 @@ export class ProductService {
 
         const product = await this.productModel.findById(productID).populate('category')
 
-        if(!product) {
+        if (!product) {
             throw new NotFoundException("The Product Cannot be found")
         }
 
@@ -501,6 +516,136 @@ export class ProductService {
             success: true,
             message: "Fetched Product Success",
             result: product
+        }
+    }
+
+    async FechShopProducts(
+    ) {
+        const products = await this.productModel.find({ product_status: true }).populate('category')
+
+        return {
+            success: true,
+            message: "Fetch all public Products",
+            result: products
+        }
+    }
+
+    async FechShopProductsbyID(
+        productID: string
+    ) {
+        const product = await this.productModel.findOne({
+            _id: productID,
+            product_status: true
+        }).populate('category')
+
+        return {
+            success: true,
+            message: "Fetch public Product",
+            result: product
+        }
+    }
+
+
+    // -----------------------------
+    // Product commmtes
+    // -----------------------------
+
+    async CreateCommets(
+        token: string,
+        productId: string,
+        comment: string,
+        parentCommentId?: string,
+        ipAddress?: string,
+        userAgent?: string,
+    ) {
+        const payload = await verifyToken(token, "LOGIN_TOKEN");
+
+        const user = await this.userModel.findOne({
+            email: payload.email,
+        });
+
+        if (!user) {
+            throw new NotFoundException("User Cannot be Found");
+        }
+
+        const product = await this.productModel.findById(productId);
+
+        if (!product) {
+            throw new NotFoundException("Product Cannot be Found");
+        }
+
+        let parentComment:
+            | ProductCommentsDocument
+            | null = null;
+
+        if (parentCommentId) {
+            parentComment = await this.productcommtModel.findOne({
+                _id: parentCommentId,
+                product: productId,
+            });
+
+            if (!parentComment) {
+                throw new NotFoundException(
+                    "Parent Comment Cannot be Found",
+                );
+            }
+        }
+
+        const createComment =
+            await this.productcommtModel.create({
+                product: product._id,
+                user: user._id,
+                parent_comment: parentComment
+                    ? parentComment._id
+                    : null,
+                comment,
+            });
+
+        await createAuditLog(this.auditlogModel, {
+            user: user._id,
+            action: parentComment
+                ? "PRODUCT_COMMENT_REPLY_CREATED"
+                : "PRODUCT_COMMENT_CREATED",
+            description: parentComment
+                ? `${user.email} replied to a product comment`
+                : `${user.email} created a product comment`,
+            ipAddress,
+            userAgent,
+            metadata: {
+                productId,
+                commentId: createComment._id,
+                parentCommentId: parentComment
+                    ? parentComment._id
+                    : null,
+                ipAddress,
+                userAgent,
+            },
+        });
+
+        return {
+            success: true,
+            message: parentComment
+                ? "Reply Created Successfully"
+                : "Comment Created Successfully",
+            comment: createComment,
+        };
+    }
+
+    async FetchProductComment(
+        productID: string
+    ) {
+        const product = await this.productModel.findById(productID)
+
+        if (!product) {
+            throw new NotFoundException("Product Cannot be found")
+        }
+
+        const comments = await this.productcommtModel.find({ product: product._id }).populate('product').populate('user')
+
+        return {
+            success: true,
+            message: "Product Comments Fetched Success",
+            result: comments
         }
     }
 }
