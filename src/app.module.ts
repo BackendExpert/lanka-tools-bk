@@ -10,6 +10,7 @@ import { ProfileModule } from './profile/profile.module';
 import { AdminModule } from './admin/admin.module';
 import { ProductModule } from './products/product.module';
 import { RentalModule } from './rental/rental.module';
+import { ChatModule } from './chat/chat.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { RentalModule } from './rental/rental.module';
     AdminModule,
     ProductModule,
     RentalModule,
+    ChatModule,
   ],
   controllers: [AppController],
   providers: [AppService],

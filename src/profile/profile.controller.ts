@@ -113,4 +113,18 @@ export class ProfileController {
         )
     }
 
+    @Get('/my-audits')
+    @UseGuards(JwtAuthGuard, PermissionsGuard)
+    @Permissions('my-audits')
+    MyAudits(
+        @Headers("authorization") authHeader: string,
+    ) {
+        if (!authHeader || !authHeader.startsWith("Bearer ")) {
+            throw new UnauthorizedException("Invalid or missing token");
+        }
+        const token = authHeader.split(" ")[1];
+
+        return this.profileService.FetchMyAuditLogs(token)
+    }
+
 }

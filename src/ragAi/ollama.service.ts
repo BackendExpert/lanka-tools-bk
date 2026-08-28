@@ -1,10 +1,10 @@
 import { Injectable } from "@nestjs/common";
 import axios from "axios";
 import { ConfigService } from "@nestjs/config";
-import { 
-    DOCUMENT_PROMPT, 
-    RESOURCE_DOCUMENT_PROMPT, 
-    SKILL_DEVELOPMENT_PROMPT 
+import {
+    AI_CHAT_PROMPT,
+    DOCUMENT_PROMPT,
+    RESOURCE_DOCUMENT_PROMPT,
 } from "./promts";
 
 @Injectable()
@@ -82,28 +82,32 @@ export class OllamaService {
         return response.data.response?.trim() || "";
     }
 
-    async generateSkillDevelopmentPlan(
-        userInput: string,
+
+    async generateDashAnser(
+        question: string,
     ): Promise<string> {
 
         const response = await axios.post(
             `${this.ollamaUrl}/api/generate`,
             {
                 model: this.genAiModel,
-                prompt: SKILL_DEVELOPMENT_PROMPT(userInput),
+                prompt: AI_CHAT_PROMPT(question),
                 stream: false,
                 options: {
-                    temperature: 0.3,
+                    temperature: 0,
                     top_p: 0.8,
-                    top_k: 40,
-                    repeat_penalty: 1.1,
-                    num_ctx: 8192,
+                    top_k: 10,
+                    repeat_penalty: 1.05,
+                    num_ctx: 2048,
+                    num_predict: 256,
                 },
             },
         );
 
         return response.data.response?.trim() || "";
     }
+
+
 
 
 }

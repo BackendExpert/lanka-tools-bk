@@ -387,4 +387,26 @@ export class ProfileService {
         }
 
     }
+
+    async FetchMyAuditLogs(
+        token: string
+    ) {
+        const payload = await verifyToken(token, "LOGIN_TOKEN");
+
+        const user = await this.userModel.findOne({
+            email: payload.email,
+        });
+
+        if (!user) {
+            throw new NotFoundException("User Cannot be Found");
+        }
+
+        const myaudits = await this.auditlogModel.find({ user: user._id })
+
+        return {
+            success: true,
+            message: "My Audit Logs Fetched",
+            result: myaudits
+        }
+    }
 }
