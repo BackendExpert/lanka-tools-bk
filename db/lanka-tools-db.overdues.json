@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6a8fb64e6977034ce6293cbb"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "product": {
+    "$oid": "6a8f9fecb4b40af93640498e"
+  },
+  "rentel": {
+    "$oid": "6a8fa0fe0b27bf80de8ffc16"
+  },
+  "override_cost": 153.4,
+  "is_pay_overdue": true,
+  "createdAt": {
+    "$date": "2026-08-27T04:00:14.085Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:57:38.487Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "6a8540c6a425394a0a506447"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "title": "Account Activated Success",
+  "description": "Your Student Account Has been Activated Now...",
+  "status": "Unread",
+  "type": "Separate",
+  "createdAt": {
+    "$date": "2026-08-19T05:36:06.487Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:36:06.487Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8540cba425394a0a506449"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "title": "Account Activated Success",
+  "description": "Your Student Account Has been Activated Now...",
+  "status": "Unread",
+  "type": "Separate",
+  "createdAt": {
+    "$date": "2026-08-19T05:36:11.287Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:36:11.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db00542060fc6e5b00846"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "title": "Account Activated Success",
+  "description": "Your Student Account Has been Activated Now...",
+  "status": "Unread",
+  "type": "Separate",
+  "createdAt": {
+    "$date": "2026-08-25T15:08:53.577Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:08:53.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fb64e6977034ce6293cbc"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "title": "Tool Returned With Overdue Cost",
+  "description": "Your rental tool Test Poduct was returned successfully with an overdue cost of $153.40.",
+  "status": "Unread",
+  "type": "System",
+  "createdAt": {
+    "$date": "2026-08-27T04:00:14.099Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T04:00:14.099Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fbfb717f82cedd056e8a6"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "title": "Overdue Payment Request",
+  "description": "Your rental for Test Poduct has an overdue charge of $153.40. Please complete the overdue payment.",
+  "status": "Unread",
+  "type": "Notice",
+  "createdAt": {
+    "$date": "2026-08-27T04:40:23.386Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T04:40:23.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fdfe2d4e03fccfc76daee"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "title": "Overdue Payment Completed",
+  "description": "Your full overdue payment of $153.40 has been completed successfully.",
+  "status": "Unread",
+  "type": "Notice",
+  "createdAt": {
+    "$date": "2026-08-27T06:57:38.521Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:57:38.521Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fe021d4e03fccfc76daf1"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "title": "Rental Created Successfully",
+  "description": "Your rental request for Test Poduct has been created successfully.",
+  "status": "Unread",
+  "type": "Notice",
+  "createdAt": {
+    "$date": "2026-08-27T06:58:41.316Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:58:41.316Z"
+  },
+  "__v": 0
+}]

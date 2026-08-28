@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "6a8db36e42060fc6e5b0084a"
+  },
+  "category": "Power Tools",
+  "category_img": "1787671406438-469777191.jpg",
+  "category_desc": "Professional electric and cordless tools designed for drilling, grinding, cutting, fastening, and other construction tasks. Suitable for contractors, tradespeople, maintenance work, and general construction projects.",
+  "sub_category": [
+    "Grinders & Cutters",
+    "Drills & Hammer Drills"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:23:26.469Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:23:26.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db3d842060fc6e5b0084c"
+  },
+  "category": "Hand Tools",
+  "category_img": "1787671512451-948685894.jpg",
+  "category_desc": "Essential manually operated tools used for construction, installation, repair, demolition, and maintenance work. This category includes durable tools suitable for both professional contractors and general building tasks.",
+  "sub_category": [
+    "Hammers & Demolition Tools",
+    "Wrenches & Pliers"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:25:12.455Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:25:12.455Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db43042060fc6e5b0084e"
+  },
+  "category": "Concrete & Masonry Equipment",
+  "category_img": "1787671600435-670292870.jpg",
+  "category_desc": "Specialized equipment for preparing, placing, cutting, breaking, and finishing concrete and masonry materials. These machines are suitable for building foundations, walls, floors, structural work, and renovation projects.",
+  "sub_category": [
+    "Concrete Mixing & Compaction",
+    "Concrete Cutting & Finishing"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:26:40.447Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:26:40.447Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db47b42060fc6e5b00850"
+  },
+  "category": "Earthmoving Machinery",
+  "category_img": "1787671675464-237667250.jpg",
+  "category_desc": "Heavy construction machinery designed for excavation, digging, grading, loading, earth removal, and site preparation. Suitable for large construction projects, road development, landscaping, and infrastructure work.",
+  "sub_category": [
+    "Excavators & Mini Excavators",
+    "Bulldozers & Loaders"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:27:55.468Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:27:55.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db4ce42060fc6e5b00852"
+  },
+  "category": "Lifting & Material Handling",
+  "category_img": "1787671758353-242760856.jpg",
+  "category_desc": "Equipment designed to safely lift, move, load, and position heavy construction materials and equipment. These machines are useful for building construction, warehouses, industrial sites, and large-scale projects.",
+  "sub_category": [
+    "Hoists & Lifting Equipment",
+    "Forklifts & Material Handlers"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:29:18.479Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:29:18.479Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db51142060fc6e5b00854"
+  },
+  "category": "Compaction Equipment",
+  "category_img": "1787671825362-529513898.jpg",
+  "category_desc": "Construction machines used to compact soil, gravel, asphalt, and other materials to create stable and durable surfaces. Commonly used for road construction, foundations, paving, landscaping, and site preparation.",
+  "sub_category": [
+    "Plate Compactors",
+    "Rollers & Rammer Compactors"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:30:25.370Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:30:25.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db55f42060fc6e5b00856"
+  },
+  "category": "Access & Working at Height",
+  "category_img": "1787671903493-198424881.jpg",
+  "category_desc": "Equipment that provides safe and stable access to elevated working areas during construction, maintenance, painting, installation, and repair activities. Suitable for both indoor and outdoor projects.",
+  "sub_category": [
+    "Scaffolding & Towers",
+    "Ladders & Work Platforms"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:31:43.504Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:31:43.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db59e42060fc6e5b00858"
+  },
+  "category": "Cleaning Equipment",
+  "category_img": "1787671966284-102679215.jpg",
+  "category_desc": "Professional cleaning machines designed to remove dirt, dust, debris, stains, and construction residue from buildings, floors, equipment, and outdoor surfaces. Ideal for construction sites, commercial properties, and maintenance work.",
+  "sub_category": [
+    "Pressure Washers",
+    "Wet/Dry Vacuums & Floor Cleaners"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:32:46.292Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:32:46.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db5ee42060fc6e5b0085a"
+  },
+  "category": "Cutting & Surface Preparation",
+  "category_img": "1787672046174-81605820.jpg",
+  "category_desc": "Specialized equipment for cutting, grinding, polishing, leveling, and preparing concrete, tiles, stone, and other construction surfaces. Suitable for flooring, renovation, masonry, and finishing projects.",
+  "sub_category": [
+    "Tile & Masonry Cutters",
+    "Floor Grinders & Planers"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:34:06.302Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:34:06.302Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db64d42060fc6e5b0085c"
+  },
+  "category": "Surveying & Measuring Equipment",
+  "category_img": "1787672141516-689872830.jpg",
+  "category_desc": "Precision equipment used for measuring distances, levels, alignments, elevations, and dimensions during construction and surveying activities. These tools help contractors achieve accurate layouts and professional-quality results.",
+  "sub_category": [
+    "Laser Levels & Rotary Lasers",
+    "Distance & Measurement Tools"
+  ],
+  "category_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:35:41.525Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:35:41.525Z"
+  },
+  "__v": 0
+}]

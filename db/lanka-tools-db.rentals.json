@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6a8fa0fe0b27bf80de8ffc16"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "product": {
+    "$oid": "6a8f9fecb4b40af93640498e"
+  },
+  "hourlyPrice": 100,
+  "dailyPrice": 250,
+  "weeklyPrice": 3000,
+  "startDateTime": {
+    "$date": "2026-08-25T02:28:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2026-08-26T14:29:00.000Z"
+  },
+  "totalHours": 13,
+  "totalDays": 0.5,
+  "totalWeeks": 0.07,
+  "subtotal": 1300,
+  "vatRate": 18,
+  "vatAmount": 234,
+  "totalAmount": 1534,
+  "is_returned": true,
+  "createdAt": {
+    "$date": "2026-08-27T02:29:18.261Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T04:00:14.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fe01ed4e03fccfc76daf0"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "product": {
+    "$oid": "6a8f9fecb4b40af93640498e"
+  },
+  "hourlyPrice": 100,
+  "dailyPrice": 250,
+  "weeklyPrice": 3000,
+  "startDateTime": {
+    "$date": "2026-08-28T18:58:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2026-08-29T18:58:00.000Z"
+  },
+  "totalHours": 24,
+  "totalDays": 1,
+  "totalWeeks": 0.14,
+  "subtotal": 250,
+  "vatRate": 18,
+  "vatAmount": 45,
+  "totalAmount": 295,
+  "is_returned": false,
+  "createdAt": {
+    "$date": "2026-08-27T06:58:38.156Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:58:38.156Z"
+  },
+  "__v": 0
+}]

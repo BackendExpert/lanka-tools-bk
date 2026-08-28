@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "email": "jehanapptest@gmail.com",
+  "role": {
+    "$oid": "6a8532191eb1d04fa49d7151"
+  },
+  "password": "$2b$10$j/B2EG/0jgxT89e9CEhL6.Bw..scK.Y7vlUzYAQiDHbEOSOWO/sOa",
+  "last_login": {
+    "$date": "2026-08-18T15:54:27.155Z"
+  },
+  "account_stats": true,
+  "createdAt": {
+    "$date": "2026-08-18T15:56:21.330Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:59:07.340Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "email": "jehannewapptest+staff1@gmail.com",
+  "role": {
+    "$oid": "6a8532191eb1d04fa49d7153"
+  },
+  "password": "$2b$10$W.v2dx.yTsvpe3j2hJbBlO2xh/rY4FbO4j.aUxpOOkx/mNfHtYDUW",
+  "last_login": {
+    "$date": "2026-08-19T05:04:36.376Z"
+  },
+  "account_stats": true,
+  "createdAt": {
+    "$date": "2026-08-19T05:20:04.088Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:49.338Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a867c9598d6dcba370fef18"
+  },
+  "email": "jehannewapptest+amdink@gmail.com",
+  "role": {
+    "$oid": "6a8532191eb1d04fa49d7152"
+  },
+  "password": "$2b$10$lFkaUlBszSP.RjKVGu76LOStfj9ZLavxB2CtWvYQpif0mJ5fmBXC2",
+  "last_login": {
+    "$date": "2026-08-20T03:30:51.277Z"
+  },
+  "account_stats": true,
+  "createdAt": {
+    "$date": "2026-08-20T04:03:33.031Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T04:03:33.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "email": "jkandymusic@gmail.com",
+  "role": {
+    "$oid": "6a8532191eb1d04fa49d7154"
+  },
+  "password": "$2b$10$KpBlUKOP4Vx9Y0Ybas5Ib.0MZbqOAiexMygGe6obgSqLK4wHPqKKu",
+  "last_login": {
+    "$date": "2026-08-25T14:43:27.644Z"
+  },
+  "account_stats": true,
+  "createdAt": {
+    "$date": "2026-08-25T15:07:40.162Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:08:53.565Z"
+  },
+  "__v": 0
+}]

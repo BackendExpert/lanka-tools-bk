@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "6a8480a5a1fe94cb394fe650"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "first_name": "jehan",
+  "last_name": "apptest",
+  "dob": {
+    "$date": "2026-08-18T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:56:21.340Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T03:40:53.993Z"
+  },
+  "__v": 0,
+  "profle_img": "1787108388020-511095458.jpg",
+  "mobile": "0711758851",
+  "profile_img": "1787110853980-618559370.jpg",
+  "bio": "asdasd",
+  "address": {
+    "address_line_1": "No. 25, Peradeniya Road",
+    "address_line_2": "Near Kandy City Centre",
+    "city": "Kandy",
+    "state": "Central Province",
+    "postal_code": "20000",
+    "country": "Sri Lanka"
+  },
+  "billing_address": {
+    "address_line_1": "No. 255, Peradeniya Road",
+    "address_line_2": "Near Kandy City Centre",
+    "city": "Kandy",
+    "state": "Central Province",
+    "postal_code": "20000",
+    "country": "Sri Lanka"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a853d04a425394a0a50641d"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "createdAt": {
+    "$date": "2026-08-19T05:20:04.092Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:22:59.605Z"
+  },
+  "__v": 0,
+  "address": {
+    "address_line_1": "Street 1",
+    "address_line_2": "Street 2",
+    "city": "Kandy",
+    "state": "Centrel",
+    "postal_code": "20000",
+    "country": "Sri Lanka"
+  },
+  "billing_address": {
+    "address_line_1": "Street 1",
+    "address_line_2": "Street 2",
+    "city": "Kandy",
+    "state": "Centrel",
+    "postal_code": "20000",
+    "country": "Sri Lanka"
+  },
+  "bio": "Something about Staff member ",
+  "dob": {
+    "$date": "1996-02-15T00:00:00.000Z"
+  },
+  "first_name": "Jehannew",
+  "last_name": "Apptest Staff1",
+  "mobile": "0711758851",
+  "profile_img": "1787116979584-976727455.PNG"
+},
+{
+  "_id": {
+    "$oid": "6a867c9598d6dcba370fef19"
+  },
+  "user": {
+    "$oid": "6a867c9598d6dcba370fef18"
+  },
+  "first_name": "admin",
+  "last_name": "kandy",
+  "createdAt": {
+    "$date": "2026-08-20T04:03:33.047Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T04:03:33.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dafbcc8fcbc202507fdb4"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "first_name": "Jehan",
+  "last_name": "Music",
+  "createdAt": {
+    "$date": "2026-08-25T15:07:40.170Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:07:40.170Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6a854055a425394a0a506422"
+  },
+  "uploader": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "original_name": "Rental Management System â RAG Knowledge Base.pdf",
+  "filename": "Rental Management System â RAG Knowledge Base.pdf",
+  "mime_type": "application/pdf",
+  "size": 307157,
+  "path": "uploads\\system-files\\Rental Management System â RAG Knowledge Base.pdf",
+  "createdAt": {
+    "$date": "2026-08-19T05:34:13.387Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:34:13.387Z"
+  },
+  "__v": 0
+}]

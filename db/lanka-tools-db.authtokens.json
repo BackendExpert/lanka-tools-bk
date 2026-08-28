@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "6a8f9b18fffc417c7e763427"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "refresh_token_hash": "$2b$10$J2zwaf4TjUSIvFQvMdjOeeT3JopcOkFFjVcbLwyuC04G2ldwAUryG",
+  "expire_at": {
+    "$date": "2026-09-26T02:04:08.699Z"
+  },
+  "ip_address": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": "2026-08-27T02:04:08.701Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:04:08.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8ff9864a537c040b6dc597"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "refresh_token_hash": "$2b$10$5rBZU34lFLTNuxWE4ArwlOzzlGcB8b8//Fpd8z.Wvv32IH8wJh7My",
+  "expire_at": {
+    "$date": "2026-09-26T08:47:01.997Z"
+  },
+  "ip_address": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": "2026-08-27T08:47:02.008Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T08:47:02.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a913796a60ee9b2df90c23e"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "refresh_token_hash": "$2b$10$.VOg8PdBXntLEA3MlWvkpuk7iFQD10i4pZNfck2Zmoo6d5OILu8L.",
+  "expire_at": {
+    "$date": "2026-09-27T07:24:06.066Z"
+  },
+  "ip_address": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": "2026-08-28T07:24:06.083Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-28T07:24:06.083Z"
+  },
+  "__v": 0
+}]

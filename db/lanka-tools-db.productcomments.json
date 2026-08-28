@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6a8fe2abd4e03fccfc76daf3"
+  },
+  "product": {
+    "$oid": "6a8f9fecb4b40af93640498e"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "parent_comment": null,
+  "comment": "nice product",
+  "createdAt": {
+    "$date": "2026-08-27T07:09:31.473Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T07:09:31.473Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6a867c9598d6dcba370fef1a"
+  },
+  "branch_admin": {
+    "$oid": "6a867c9598d6dcba370fef18"
+  },
+  "branch_name": "Kandy Branch",
+  "branch_address": "ABC Street, Xyz, Kandy",
+  "branch_google_location": "https://maps.app.goo.gl/HrKf37pCLXJd91zB8",
+  "staff_members": [],
+  "createdAt": {
+    "$date": "2026-08-20T04:03:33.060Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T05:10:58.609Z"
+  },
+  "__v": 0
+}]

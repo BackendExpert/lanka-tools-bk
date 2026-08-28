@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "6a8532191eb1d04fa49d7151"
+  },
+  "role": "super_admin",
+  "permissions": [],
+  "createdAt": {
+    "$date": "2026-08-19T04:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T04:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a8532191eb1d04fa49d7152"
+  },
+  "role": "branch_admin",
+  "permissions": [
+    "profile:fetch-profile",
+    "profile:update",
+    "password:update",
+    "notification:read",
+    "notification:fetch-all",
+    "product:create-category",
+    "product:update-category",
+    "product:update-category-status",
+    "product:fetch-categories",
+    "product:fetch-category",
+    "product:create-product",
+    "product:update-product",
+    "product:update-product-status",
+    "product:fetch-products",
+    "product:fetch-product",
+    "rental:create-rental",
+    "rental:fetch-rental-list",
+    "rental:fetch-rental-recode",
+    "rental:return-tool",
+    "rental:fetch-late-fees",
+    "rental:fetch-late-fee",
+    "rental:request-pay-overdue",
+    "rental:request-my-tools",
+    "rental:my-late-fees",
+    "rental:clear-late-fees",
+    "admin:fetch-users",
+    "genai:genarate-answer",
+    "my-audits"
+  ],
+  "createdAt": {
+    "$date": "2026-08-19T04:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T04:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a8532191eb1d04fa49d7153"
+  },
+  "role": "staff",
+  "permissions": [
+    "profile:fetch-profile",
+    "my-audits",
+    "profile:update",
+    "password:update",
+    "notification:read",
+    "notification:fetch-all",
+    "product:create-category",
+    "product:update-category",
+    "product:update-category-status",
+    "product:fetch-categories",
+    "product:fetch-category",
+    "product:create-product",
+    "product:update-product",
+    "product:update-product-status",
+    "product:fetch-products",
+    "product:fetch-product",
+    "rental:create-rental",
+    "rental:fetch-rental-list",
+    "rental:fetch-rental-recode",
+    "rental:return-tool",
+    "rental:fetch-late-fees",
+    "rental:fetch-late-fee",
+    "rental:request-pay-overdue",
+    "rental:request-my-tools",
+    "rental:my-late-fees",
+    "rental:clear-late-fees",
+    "admin:fetch-users",
+    "product:create-comment",
+    "genai:genarate-answer"
+  ],
+  "createdAt": {
+    "$date": "2026-08-19T04:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T04:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a8532191eb1d04fa49d7154"
+  },
+  "role": "customer",
+  "permissions": [
+    "profile:fetch-profile",
+    "my-audits",
+    "profile:update",
+    "password:update",
+    "notification:read",
+    "notification:fetch-all",
+    "product:fetch-products",
+    "product:fetch-product",
+    "rental:create-rental",
+    "rental:request-my-tools",
+    "rental:my-late-fees",
+    "rental:clear-late-fees",
+    "product:create-comment",
+    "product:fetch-categories",
+    "genai:genarate-answer"
+  ],
+  "createdAt": {
+    "$date": "2026-08-19T04:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T04:30:00.000Z"
+  }
+}]

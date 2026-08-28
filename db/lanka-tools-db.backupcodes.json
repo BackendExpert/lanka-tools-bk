@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "6a8480a5a1fe94cb394fe64f"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "backup_codes": [
+    "$2b$10$nUxSoqrpNQMen9lVYJni9eykByx6iuD8f9tsLi6HT3trYDd6AjXwu",
+    "$2b$10$dgvW.LlPPWv/PtAPlfQXS.BHiSZyXHFdJyI2WUvMfWil7gE1vRXq2",
+    "$2b$10$7WJSrRVDbKz96CPfRmYHlOaZzAU6xgKLx..tLJzXvZ9YT8u/Hl6rG",
+    "$2b$10$2nTVZmsKDG2nRVq/rRQSi.zSgCCWKnJpT868ZwWhtiYEYJ3j.EHkC",
+    "$2b$10$XqSKh.0IBm4uh6BQMlNWx.faqa7miml0i4RZ/nFgB004RWpYJUfJe",
+    "$2b$10$SO4GEvUvMJhYv4yuRUNlZeHc64N8lokeM.d1v50tMrXrXAyDVXcn2",
+    "$2b$10$cHPOHgENjRJF0xkg1PyMBOnx/D4MAuCUE3FW1eC.LamzGZTT4xQJ6",
+    "$2b$10$frpKZI6T4ijkTBPw8DeBbe727LG/4CYn1uBY5fG/3UMP0xm9C0Yl6",
+    "$2b$10$t93sNonc/GIeMR4MPOXl9uAF5zTMMhaFaRmQtHoIIGBoHSE8Ie/0i"
+  ],
+  "createdAt": {
+    "$date": "2026-08-18T15:56:21.336Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T16:00:12.666Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6a8dafbcc8fcbc202507fdb3"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "backup_codes": [
+    "$2b$10$jeUYdF0ErhAvXPap0JSgYudaJCDcPWb004mDmoBAH9MTvGD5vPH5y",
+    "$2b$10$fbfhQGLrebexFubi2ztSZOZQA8P0U6WEooEwYVVf.3vY37luEzJh6",
+    "$2b$10$0/R4WscPKbMlyL61axXNUuw5DcPaeMItlyCyP1Kl/G5CxvnK/4CCO",
+    "$2b$10$gE1tcHFHNRWj877P2SQWeeDvLrv85Vv22O51j3AmTHzjUEEZHwKaO",
+    "$2b$10$vQ.tV4pQtcxYyvNB8Ri11OncucvFPgRUBR6ZQmyeiWmwhNEcsH21q",
+    "$2b$10$YZ1Sbci3ugEIEguVzivZ6el4BVdYF1kLOgD4k1DeayMQRaLe/AuLa",
+    "$2b$10$D1.ctuIof0/gE06hhVE2quB5W.poMiWszba85cFdJwhimCweSp1Li",
+    "$2b$10$0QlcIXtDU4uLvbautitXcOqkQrp.hwjnjdDZUMsqOF5mHJ8uK97tO",
+    "$2b$10$9Y6zr7e1s4fzmDrquofzxul3AmO5J7SlXiPFFytyRBuNLP.dcJrEW",
+    "$2b$10$td7OI4PHTA0aH9pcVHTUzeKOqKrsP3SofcZ/BMNe2Y4BL9.sqlzz6"
+  ],
+  "createdAt": {
+    "$date": "2026-08-25T15:07:40.167Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:07:40.167Z"
+  },
+  "__v": 0
+}]

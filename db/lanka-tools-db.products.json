@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6a8f9fecb4b40af93640498e"
+  },
+  "product": "Test Poduct",
+  "description": "Test PoductTest PoductTest PoductTest PoductTest PoductTest PoductTest PoductTest PoductTest PoductTest PoductTest PoductTest PoductTest Poduct",
+  "category": "6a8db36e42060fc6e5b0084a",
+  "sub_category": [
+    "Grinders & Cutters"
+  ],
+  "product_imgs": [
+    "1787797484181-688004003.jpg",
+    "1787797484182-97230998.jpg",
+    "1787797484183-90672940.jpg"
+  ],
+  "hourly_price": 100,
+  "daily_price": 250,
+  "weekly_price": 3000,
+  "discount": 0,
+  "stock": 4,
+  "tags": [
+    "test",
+    "test2"
+  ],
+  "product_status": true,
+  "createdAt": {
+    "$date": "2026-08-27T02:24:44.303Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:58:38.163Z"
+  },
+  "__v": 0
+}]

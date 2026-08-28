@@ -1,0 +1,2888 @@
+[{
+  "_id": {
+    "$oid": "6a8480a5a1fe94cb394fe651"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "REGISTER_SUCCESS",
+  "description": "Registration Successfully jehanapptest@gmail.com",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:56:21.343Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:56:21.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a848105a1fe94cb394fe652"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehanapptest@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:57:57.744Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:57:57.744Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a84810aa1fe94cb394fe654"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:58:02.648Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:58:02.648Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a848128a1fe94cb394fe656"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_REQUEST_OTP",
+  "description": "jehanapptest@gmail.com User Request Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:58:32.034Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:58:32.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a848140a1fe94cb394fe657"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_VERIFY_OTP",
+  "description": "jehanapptest@gmail.com Successfully Verified Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:58:56.564Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:58:56.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a84814ba1fe94cb394fe658"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PASSWORD_UPDATED",
+  "description": "jehanapptest@gmail.com Successfully Updated Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:59:07.345Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:59:07.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a848154a1fe94cb394fe659"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehanapptest@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:59:16.277Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:59:16.277Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a848159a1fe94cb394fe65b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T15:59:21.997Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T15:59:21.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a84818ca1fe94cb394fe65c"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_WITH_BACKUP_CODE",
+  "description": "jehanapptest@gmail.com Login Success with Backup codes",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T16:00:12.677Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T16:00:12.677Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a848256a1fe94cb394fe65e"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T16:03:34.492Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T16:03:34.492Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a848297a1fe94cb394fe660"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T16:04:39.079Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T16:04:39.079Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a84838ca1fe94cb394fe662"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T16:08:44.719Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T16:08:44.719Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a848392a1fe94cb394fe663"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_REQUEST_OTP",
+  "description": "jehanapptest@gmail.com User Request Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T16:08:50.200Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T16:08:50.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8483b0a1fe94cb394fe665"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T16:09:20.019Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T16:09:20.019Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8483eaa1fe94cb394fe667"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-18T16:10:18.082Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-18T16:10:18.082Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a851a6ea1fe94cb394fe668"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_REQUEST_OTP",
+  "description": "jehanapptest@gmail.com User Request Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T02:52:30.330Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T02:52:30.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a851a76a1fe94cb394fe66a"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T02:52:38.126Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T02:52:38.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a851c24601b3d87158efe1b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_UPDATED_PROFILE",
+  "description": "jehanapptest@gmail.com Has been update their Profile",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T02:59:48.053Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T02:59:48.053Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a851ee297c2e70a3ca1bd99"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_UPDATED_PROFILE",
+  "description": "jehanapptest@gmail.com Has updated their Profile",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "PostmanRuntime/2.3.0",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "PostmanRuntime/2.3.0",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T03:11:30.464Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T03:11:30.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a85204097c2e70a3ca1bd9a"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_UPDATED_PROFILE",
+  "description": "jehanapptest@gmail.com Has updated their Profile",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T03:17:20.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T03:17:20.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a85219997c2e70a3ca1bd9b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_UPDATED_PROFILE",
+  "description": "jehanapptest@gmail.com Has updated their Profile",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T03:23:05.746Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T03:23:05.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a85251897c2e70a3ca1bd9c"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_UPDATED_PROFILE",
+  "description": "jehanapptest@gmail.com Has updated their Profile",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T03:38:00.112Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T03:38:00.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a85259597c2e70a3ca1bd9d"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_UPDATED_PROFILE",
+  "description": "jehanapptest@gmail.com Has updated their Profile",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T03:40:05.187Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T03:40:05.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8525c597c2e70a3ca1bd9e"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_UPDATED_PROFILE",
+  "description": "jehanapptest@gmail.com Has updated their Profile",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T03:40:53.996Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T03:40:53.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8532a1ee5fb49d8d34c091"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T04:35:45.406Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T04:35:45.406Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a853d07a425394a0a50641e"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "ACCOUT_CREATED",
+  "description": "jehanapptest@gmail.com Account Create for jehannewapptest+staff1@gmail.com",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T05:20:07.894Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:20:07.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a853d52a425394a0a506420"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehannewapptest+staff1@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T05:21:22.284Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:21:22.284Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a853db3a425394a0a506421"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "USER_UPDATED_PROFILE",
+  "description": "jehannewapptest+staff1@gmail.com Has updated their Profile",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T05:22:59.615Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:22:59.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8540c6a425394a0a506448"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "UPDATE_USER_STATUS",
+  "description": "jehanapptest@gmail.com Update the jehannewapptest+staff1@gmail.com user's user Account Status",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T05:36:06.489Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:36:06.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8540cba425394a0a50644a"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "UPDATE_USER_STATUS",
+  "description": "jehanapptest@gmail.com Update the jehannewapptest+staff1@gmail.com user's user Account Status",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T05:36:11.288Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T05:36:11.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a85b991f1f244903d63003f"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-19T14:11:29.546Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-19T14:11:29.546Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a86751898d6dcba370fef17"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T03:31:36.776Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T03:31:36.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a867c9598d6dcba370fef1b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "BRANCH_CREATED",
+  "description": "jehanapptest@gmail.com Create Branch - Kandy Branch and Branch Admin - jehannewapptest+amdink@gmail.com ",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T04:03:33.064Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T04:03:33.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8681f4304043eca038babf"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_REQUEST_OTP",
+  "description": "jehanapptest@gmail.com User Request Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T04:26:28.841Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T04:26:28.841Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a868252304043eca038bac1"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T04:28:02.312Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T04:28:02.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a868aaa161299b5f70a01a6"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "STAFF_ASSIGN_BRANCH",
+  "description": "jehanapptest@gmail.com Assign staff jehannewapptest+staff1@gmail.com to Kandy Branch",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T05:03:38.033Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T05:03:38.033Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a868b2f161299b5f70a01a7"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "STAFF_REMOVE_BRANCH",
+  "description": "jehanapptest@gmail.com Removed staff jehannewapptest+staff1@gmail.com from Kandy Branch",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T05:05:51.448Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T05:05:51.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a868b3c161299b5f70a01a8"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "STAFF_ASSIGN_BRANCH",
+  "description": "jehanapptest@gmail.com Assign staff jehannewapptest+staff1@gmail.com to Kandy Branch",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T05:06:04.005Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T05:06:04.005Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a868bc3161299b5f70a01a9"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "STAFF_REMOVE_BRANCH",
+  "description": "jehanapptest@gmail.com Removed staff jehannewapptest+staff1@gmail.com from Kandy Branch",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T05:08:19.500Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T05:08:19.500Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a868bce161299b5f70a01aa"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "STAFF_ASSIGN_BRANCH",
+  "description": "jehanapptest@gmail.com Assign staff jehannewapptest+staff1@gmail.com to Kandy Branch",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T05:08:30.674Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T05:08:30.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a868c65161299b5f70a01ab"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "STAFF_REMOVE_BRANCH",
+  "description": "jehanapptest@gmail.com Removed staff jehannewapptest+staff1@gmail.com from Kandy Branch",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T05:11:01.621Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T05:11:01.621Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a86abc6acaf772fb2c265a7"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Test Category",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T07:24:54.158Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T07:24:54.158Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a86ac1cacaf772fb2c265a9"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Test Category 2",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T07:26:20.553Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T07:26:20.553Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a871bc0279a4f2fea5a2f28"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-20T15:22:40.341Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-20T15:22:40.341Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87b93a9b8e4e9a9631dc17"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-21T02:34:34.859Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-21T02:34:34.859Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87c241c2dcce172805bf6a"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_STATUS_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category Status",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-21T03:13:05.906Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-21T03:13:05.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87c8ef0acca286cbf50a8d"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-21T03:41:35.950Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-21T03:41:35.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87c8f60acca286cbf50a8e"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-21T03:41:42.034Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-21T03:41:42.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87c9050acca286cbf50a8f"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-21T03:41:57.348Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-21T03:41:57.348Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87c90b0acca286cbf50a90"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-21T03:42:03.781Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-21T03:42:03.781Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87c95f0acca286cbf50a91"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-21T03:43:27.298Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-21T03:43:27.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87c96a0acca286cbf50a92"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_STATUS_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category Status",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-21T03:43:38.558Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-21T03:43:38.558Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a893576c0eecb337e99d769"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-22T05:36:54.846Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-22T05:36:54.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a893b66cce55d93035668db"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_CREATED",
+  "description": "jehanapptest@gmail.com Create product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-22T06:02:14.861Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-22T06:02:14.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8d8c412b4f85434cc78aa3"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T12:36:17.960Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T12:36:17.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8d9a2b81989889d218941c"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T13:35:39.370Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T13:35:39.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8d9b1f81989889d218941d"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_STATUS_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category Status",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T13:39:43.780Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T13:39:43.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8d9b2381989889d218941e"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_STATUS_UPDATED",
+  "description": "jehanapptest@gmail.com Update Category Status",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T13:39:47.763Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T13:39:47.763Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dafbcc8fcbc202507fdb5"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "REGISTER_SUCCESS",
+  "description": "Registration Successfully jkandymusic@gmail.com",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:07:40.173Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:07:40.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db00542060fc6e5b00847"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "UPDATE_USER_STATUS",
+  "description": "jehanapptest@gmail.com Update the jkandymusic@gmail.com user's user Account Status",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:08:53.581Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:08:53.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db00c42060fc6e5b00849"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jkandymusic@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:09:00.738Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:09:00.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db36e42060fc6e5b0084b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Power Tools",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:23:26.472Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:23:26.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db3d842060fc6e5b0084d"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Hand Tools",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:25:12.458Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:25:12.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db43042060fc6e5b0084f"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Concrete & Masonry Equipment",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:26:40.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:26:40.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db47b42060fc6e5b00851"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Earthmoving Machinery",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:27:55.469Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:27:55.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db4ce42060fc6e5b00853"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Lifting & Material Handling",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:29:18.481Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:29:18.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db51142060fc6e5b00855"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Compaction Equipment",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:30:25.372Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:30:25.372Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db55f42060fc6e5b00857"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Access & Working at Height",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:31:43.506Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:31:43.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db59e42060fc6e5b00859"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Cleaning Equipment",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:32:46.294Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:32:46.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db5ee42060fc6e5b0085b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Cutting & Surface Preparation",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:34:06.304Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:34:06.304Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db64d42060fc6e5b0085d"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "CATEGORY_CREATED",
+  "description": "jehanapptest@gmail.com Create Category Surveying & Measuring Equipment",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:35:41.527Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:35:41.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db7b042060fc6e5b0085f"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_CREATED",
+  "description": "jehanapptest@gmail.com Create product Angle Grinder",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:41:36.189Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:41:36.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8db84d42060fc6e5b00861"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_CREATED",
+  "description": "jehanapptest@gmail.com Create product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T15:44:13.417Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T15:44:13.417Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dbd9a61581c3c85492ea8"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:06:50.349Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:06:50.349Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dbfd9c3db4c8e5ec73328"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:16:25.989Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:16:25.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dc001c3db4c8e5ec73329"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:17:05.012Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:17:05.012Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dc00ac3db4c8e5ec7332a"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:17:14.089Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:17:14.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dc012c3db4c8e5ec7332b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:17:22.169Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:17:22.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dc2930dcb71af77aeaca7"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:28:03.146Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:28:03.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dc84ce87708975bc07364"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:52:28.035Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:52:28.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dc856e87708975bc07365"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:52:38.860Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:52:38.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dc862e87708975bc07366"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Cut-Off Saw",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T16:52:50.939Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T16:52:50.939Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dcbc8217e1281360d5a21"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_CREATED",
+  "description": "jehanapptest@gmail.com Create product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:07:20.970Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:07:20.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dcd6912bf91abcc92b15f"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:14:17.358Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:14:17.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dcd7412bf91abcc92b160"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:14:28.907Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:14:28.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dcdaa12bf91abcc92b161"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:15:22.804Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:15:22.804Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dcdb412bf91abcc92b162"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:15:32.290Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:15:32.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dcdc412bf91abcc92b163"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:15:48.093Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:15:48.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dce88e568189ba1c5085b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:19:04.144Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:19:04.144Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dce92e568189ba1c5085c"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:19:14.974Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:19:14.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dd6c8e00656704972da28"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_CREATED",
+  "description": "jehanapptest@gmail.com Create product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:54:16.428Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:54:16.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8dd6dee00656704972da29"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_UPDATED",
+  "description": "jehanapptest@gmail.com Update Product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-25T17:54:38.315Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-25T17:54:38.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8ee2e0d85349c2eda46d77"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-26T12:58:08.162Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-26T12:58:08.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9464a69ea867783e807b"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T01:35:32.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T01:35:32.679Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9adefffc417c7e76341c"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehannewapptest+staff1@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:10.751Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:10.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9ae4fffc417c7e76341d"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehannewapptest+staff1@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:16.363Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:16.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9ae5fffc417c7e76341e"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehannewapptest+staff1@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:17.417Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:17.417Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9ae5fffc417c7e76341f"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehannewapptest+staff1@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:17.682Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:17.682Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9ae5fffc417c7e763420"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehannewapptest+staff1@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:17.857Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:17.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9ae6fffc417c7e763421"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehannewapptest+staff1@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:18.042Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:18.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9ae6fffc417c7e763422"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jehannewapptest+staff1@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:18.218Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:18.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9aeefffc417c7e763424"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "USER_REQUEST_OTP",
+  "description": "jehannewapptest+staff1@gmail.com User Request Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:26.267Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:26.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9afbfffc417c7e763425"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "USER_VERIFY_OTP",
+  "description": "jehannewapptest+staff1@gmail.com Successfully Verified Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:39.143Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:39.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9b05fffc417c7e763426"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "PASSWORD_UPDATED",
+  "description": "jehannewapptest+staff1@gmail.com Successfully Updated Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:03:49.346Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:03:49.346Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9b18fffc417c7e763428"
+  },
+  "user": {
+    "$oid": "6a853d04a425394a0a50641c"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehannewapptest+staff1@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:04:08.702Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:04:08.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8f9fecb4b40af93640498f"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "PRODUCT_CREATED",
+  "description": "jehanapptest@gmail.com Create product Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T02:24:44.756Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T02:24:44.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fb64e6977034ce6293cbd"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "RENTAL_RETURNED",
+  "description": "jkandymusic@gmail.com returned rental for Test Poduct",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "rentalID": "6a8fa0fe0b27bf80de8ffc16",
+    "productID": "6a8f9fecb4b40af93640498e",
+    "userID": "6a8dafbcc8fcbc202507fdb2",
+    "isOverdue": true,
+    "overdueDays": 1,
+    "overdueCost": 153.4,
+    "totalCost": 1687.4
+  },
+  "createdAt": {
+    "$date": "2026-08-27T04:00:14.101Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T04:00:14.101Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fb95696153754b42c09a9"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "USER_REQUEST_OTP",
+  "description": "jehanapptest@gmail.com User Request Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T04:13:10.411Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T04:13:10.411Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fb95c96153754b42c09ab"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T04:13:16.277Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T04:13:16.277Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fbfb717f82cedd056e8a7"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "REQUEST_TO_PAY_OVERDUE",
+  "description": "jehanapptest@gmail.com requested jkandymusic@gmail.com to pay the overdue fee",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null,
+    "overdueID": "6a8fb64e6977034ce6293cbb",
+    "renterID": "6a8dafbcc8fcbc202507fdb2",
+    "productID": "6a8f9fecb4b40af93640498e",
+    "rentalID": "6a8fa0fe0b27bf80de8ffc16",
+    "overdueDays": 1,
+    "overdueCost": 153.4
+  },
+  "createdAt": {
+    "$date": "2026-08-27T04:40:23.400Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T04:40:23.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fd5b067c77f9146dbb0ca"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T06:14:08.397Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:14:08.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fdaa13cd6f0d211f3c27b"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "USER_REQUEST_OTP",
+  "description": "jkandymusic@gmail.com User Request Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T06:35:13.868Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:35:13.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fdaf03cd6f0d211f3c27c"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jkandymusic@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T06:36:32.718Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:36:32.718Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fdaf63cd6f0d211f3c27d"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "WRONG_PASSWORD",
+  "description": "jkandymusic@gmail.com Wrong Password",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T06:36:38.714Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:36:38.714Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fdafd3cd6f0d211f3c27f"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jkandymusic@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T06:36:45.278Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:36:45.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fdfe2d4e03fccfc76daef"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "CLEAR_OVERDUE_FEES",
+  "description": "jkandymusic@gmail.com paid all overdue fees totaling $153.40",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null,
+    "totalOverdue": 153.4,
+    "overdueCount": 1
+  },
+  "createdAt": {
+    "$date": "2026-08-27T06:57:38.527Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:57:38.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fe021d4e03fccfc76daf2"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "RENT_A_TOOL",
+  "description": "jkandymusic@gmail.com Rent Tool 6a8f9fecb4b40af93640498e",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T06:58:41.322Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T06:58:41.322Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fe2abd4e03fccfc76daf4"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "PRODUCT_COMMENT_CREATED",
+  "description": "jkandymusic@gmail.com created a product comment",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "productId": "6a8f9fecb4b40af93640498e",
+    "commentId": {
+      "$oid": "6a8fe2abd4e03fccfc76daf3"
+    },
+    "parentCommentId": null,
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+  },
+  "createdAt": {
+    "$date": "2026-08-27T07:09:31.476Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T07:09:31.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fe2b2d4e03fccfc76daf5"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "USER_REQUEST_OTP",
+  "description": "jkandymusic@gmail.com User Request Password Reset OTP",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "ipAddress": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T07:09:38.485Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T07:09:38.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8fe2c0d4e03fccfc76daf7"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jkandymusic@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T07:09:52.669Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T07:09:52.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a8ff9864a537c040b6dc598"
+  },
+  "user": {
+    "$oid": "6a8dafbcc8fcbc202507fdb2"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jkandymusic@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T08:47:02.011Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T08:47:02.011Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a902c6f0e8c302ee723f8a4"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-27T12:24:15.339Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-27T12:24:15.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a913796a60ee9b2df90c23f"
+  },
+  "user": {
+    "$oid": "6a8480a5a1fe94cb394fe64e"
+  },
+  "action": "LOGIN_SUCCESS",
+  "description": "jehanapptest@gmail.com Login Success",
+  "ipAddress": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+  "metadata": {
+    "location": null
+  },
+  "createdAt": {
+    "$date": "2026-08-28T07:24:06.087Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-28T07:24:06.087Z"
+  },
+  "__v": 0
+}]
